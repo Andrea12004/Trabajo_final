@@ -1,0 +1,16 @@
+{
+  "name": "esp32-mongo-backend",
+  "version": "1.0.0",
+  "description": "API REST para recibir datos del ESP32 y guardarlos en MongoDB Atlas",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.18.2",
+    "mongoose": "^8.2.0"
+  }
+}
